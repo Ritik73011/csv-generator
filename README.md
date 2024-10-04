@@ -13,16 +13,19 @@ Make sure you have **Node.js** and **npm** installed on your machine. You can do
 1. Clone the repository:
 
    git clone <https://github.com/Ritik73011/csv-generator.git>
+
+2. Navigate to repository
+
    cd csv-generator
 
-2. Install the required packages
+3. Install the required packages
 
    npm install
 
-3. Start the server
+4. Start the server
 
    npm start
 
-4. Test the api
+5. Test the api
 
    http://localhost:5000/generate-csv
