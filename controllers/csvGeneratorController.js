@@ -24,7 +24,7 @@ const getDataFromApi = async () => {
                 body: comments[idx].body
             }
         });
-        console.log(combinedData);
+
         return combinedData;
     } catch (error) {
         throw error
@@ -50,7 +50,7 @@ module.exports.controllerFunction = async (req, res) => {
 
         await csvWriter.writeRecords(combinedData);
 
-        return res.status(200).send({ msg: "CSV file created and inserted successfully", success: true, file_path: `csv-generator/csv_data/csv_${timestamp}` })
+        return res.status(200).send({ msg: "CSV file created and inserted successfully", success: true, file_path: `csv-generator/csv_data/csv_${timestamp}.csv` })
 
     } catch (error) {
         console.log(error);
