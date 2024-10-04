@@ -1,7 +1,5 @@
 # csv-generator
 
-# CSV Generator API
-
 This project is an Express.js application that fetches data from multiple APIs and generates a CSV file containing user information, post titles, and comment bodies.
 
 ## Getting Started
@@ -14,7 +12,7 @@ Make sure you have **Node.js** and **npm** installed on your machine. You can do
 
 1. Clone the repository:
 
-   git clone <repository-url>
+   git clone <https://github.com/Ritik73011/csv-generator.git>
    cd csv-generator
 
 2. Install the required packages
